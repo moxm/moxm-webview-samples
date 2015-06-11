@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>  
+<head>   
+  <title>Notification Example</title> 
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>    
+  <script type="text/javascript" charset="utf-8">    
+   // Wait for device API libraries to load    
+   //    
+   document.addEventListener("deviceready", onDeviceReady, false);    
+   // device APIs are available    
+   //    
+   function onDeviceReady() {        
+   	 // Empty    
+  	}    
+    // Show a custom alert    
+    
+    //    native的 Dialog 对话框
+    function showAlert() {
+        navigator.notification.alert('You are the winner!',  // message
+                                        'Game Over',  // title
+                                        'Done' // buttonName);
+    }
+    // Beep three times    
+    //    响铃3声
+    function playBeep() {        navigator.notification.beep(3);    }    
+    // Vibrate for 2 seconds    
+    //    振动
+    function vibrate() {         navigator.notification.vibrate(100000);    }    
+	//	     跳转
+    function intent() {          navigator.intent.demo(1);    		}    
+
+    </script>  
+    </head>  
+    <body>    
+    <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>    
+    <p><a href="#" onclick="playBeep(); return false;">Play Beep</a></p>    
+    <p><a href="#" onclick="vibrate(); return false;">Vibrate</a></p>  
+    <p><a href="#" onclick="intent(); return false;">Html跳转到android界面</a></p>  
+    </body>
+    </html>
