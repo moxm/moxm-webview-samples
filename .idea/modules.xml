@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cordovaplugin/cordovaplugin.iml" filepath="$PROJECT_DIR$/cordovaplugin/cordovaplugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/newtouchone-h5.iml" filepath="$PROJECT_DIR$/newtouchone-h5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moxm-webview-samples.iml" filepath="$PROJECT_DIR$/moxm-webview-samples.iml" />
     </modules>
   </component>
 </project>
